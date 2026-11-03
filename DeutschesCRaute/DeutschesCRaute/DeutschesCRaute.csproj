@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>DeutschesCRaute</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>AscendantWare</Authors>
+    <Description>Eine C#-Bibliothek mit deutschen Datentypen, Sammlungen und Hilfsfunktionen für den Einstieg in die Programmierung.</Description>
+    <PackageTags>deutsch;anfaenger;lernen;csharp;datentypen;sammlungen</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/AscendantWare/DeutschesCRaute</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/AscendantWare/DeutschesCRaute</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+</Project>
